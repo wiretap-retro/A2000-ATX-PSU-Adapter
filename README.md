@@ -18,7 +18,7 @@ A power supply adapter for the Amiga 2000 to use an ATX power supply -- also pro
 * Install an ATX power supply in your Amiga 2000. This step is not covered here, as there are many tutorials online already. Do not cut the 20-pin/24-pin connector.
 * Set motherboard jumper U300 for using the Vsync generated TICK signal.
 * Plug the A2000 ATX PSU Adapter into the motherboard's power connector.
-* Plug in a toggle switch or latching switch to the 2-pin PWRSW pin header. The button can be mounted anywhere you run the wires to, or you can also use the original power supply's rocker switch to keep the OEM look and feel.
+* Plug in a toggle switch or latching switch to the 2-pin PWRSW pin header. The button can be mounted anywhere you run the wires to, or you can also use the original power supply's rocker switch to keep the OEM look and feel. You can also install a jumper here, if you want to utilize your ATX/SFX power supply rocker switch in the case of just plopping the power supply on the desk or modding the case to mount the whole thing in there.
 * Connect your ATX power supply 20-pin/24-pin connector to your newly built power adapter.
 * Optional: The board provides 5V and 12V fan headers to cool anything you want. For example, the 5V fan header is good for a Raspberry Pi fan for the PiSTORM.
 

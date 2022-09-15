@@ -28,4 +28,5 @@ A power supply adapter for the Amiga 2000 to use an ATX power supply -- also pro
 * This is a 4-layer board with the inner planes being 5V and 12V. I increased the width of the thermal reliefs to allow sufficient current to pass, so soldering will be a little more difficult due to heat transfer to the large planes. Use a larger tip and a higher temperature when soldering to make sure the fillets look nice and no dry solder joints occur.
 
 ## Misc
-This design is open source. Feel free to do what you want with it.
+* This design is open source. Feel free to do what you want with it.
+* Design adapted from my PICO-AT power adapter.

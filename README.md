@@ -23,8 +23,9 @@ A power supply adapter for the Amiga 2000 to use an ATX power supply -- also pro
 * Optional: The board provides 5V and 12V fan headers to cool anything you want. For example, the 5V fan header is good for a Raspberry Pi fan for the PiSTORM.
 
 ## Notes
-* The 7905 voltage regulator takes power from the -12VDC ATX power supply and converts it to -5VDC for the Amiga.
+* The 7905 voltage regulator takes power from the -12VDC ATX power supply and converts it to -5VDC for the Amiga. It is capable of providing plenty of power, and is overkill. Your ATX power supply -12VDC rail will tap out well before the abilities of the 7905.
 * This ATX power supply adapter will probably be a little difficult to remove since it is a 14-pin connector with high friction. Be careful if you remove it. I designed it with the edges protruding a little so you have something to grip. Insertion/removal may be easier if the ATX power supply is already connected since you'll have additional plastic to grab onto.
+* This is a 4-layer board with the inner planes being 5V and 12V. I increased the width of the thermal reliefs to allow sufficient current to pass, so soldering will be a little more difficult due to heat transfer to the large planes. Use a larger tip and a higher temperature when soldering to make sure the fillets look nice and no dry solder joints occur.
 
 ## Misc
 This design is open source. Feel free to do what you want with it.

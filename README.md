@@ -27,6 +27,10 @@ A power supply adapter for the Amiga 2000 to use an ATX power supply -- also pro
 * This ATX power supply adapter will probably be a little difficult to remove since it is a 14-pin connector with high friction. Be careful if you remove it. I designed it with the edges protruding a little so you have something to grip. Insertion/removal may be easier if the ATX power supply is already connected since you'll have additional plastic to grab onto. A slight rocking motion will help get the connector over the bump.
 * This is a 4-layer board with the inner planes being 5V and 12V. I increased the width of the thermal reliefs to allow sufficient current to pass, so soldering will be a little more difficult due to heat transfer to the large planes. Use a larger tip and a higher temperature when soldering to make sure the fillets look nice and no dry solder joints occur.
 
+## Revision Info
+* Rev 1 - Changed power indication LED from the PG pin to a 5V source. The PG pin only stays high for about 5 seconds depending on the power supply.
+* Rev 0 - Initial revision.
+
 ## Misc
 * This design is open source. Feel free to do what you want with it.
 * Design adapted from my PICO-AT power adapter.
